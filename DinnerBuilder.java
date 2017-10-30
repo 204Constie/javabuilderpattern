@@ -13,4 +13,9 @@ public class DinnerBuilder extends MealBuilder {
         System.out.println("build description for meal dinner");
         meal.setDescription("huge steak with barbecue sauce");
     }
+
+    public void buildPrice(){
+        System.out.println("build price for meal dinner");
+        meal.setPrice(65);
+    }
 }

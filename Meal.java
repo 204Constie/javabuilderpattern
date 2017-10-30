@@ -6,6 +6,7 @@ package com.company;
 class Meal {
     private String name;
     private String description;
+    private int price;
 
     public void setName(String name){
         this.name = name;
@@ -21,5 +22,13 @@ class Meal {
 
     public String getDescription(){
         return description;
+    }
+
+    public void setPrice(int price){
+        this.price = price;
+    }
+
+    public int getPrice(){
+        return price;
     }
 }

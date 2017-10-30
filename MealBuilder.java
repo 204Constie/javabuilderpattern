@@ -16,5 +16,6 @@ abstract class MealBuilder {
 
     public abstract void buildName();
     public abstract void buildDescription();
+    public abstract void buildPrice();
 }
 

@@ -13,5 +13,10 @@ public class BreakfastBuilder extends MealBuilder {
         System.out.println("build description for meal breakfast");
         meal.setDescription("oatmeal and apple");
     }
+
+    public void buildPrice(){
+        System.out.println("build price for meal breakfast");
+        meal.setPrice(25);
+    }
 }
 

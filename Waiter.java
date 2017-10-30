@@ -20,5 +20,6 @@ class Waiter {
         mealBuilder.createNewMeal();
         mealBuilder.buildName();
         mealBuilder.buildDescription();
+        mealBuilder.buildPrice();
     }
 }

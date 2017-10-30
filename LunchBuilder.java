@@ -13,4 +13,9 @@ public class LunchBuilder extends MealBuilder {
         System.out.println("build description for meal lunch");
         meal.setDescription("rice with pumpkin on onions");
     }
+
+    public void buildPrice(){
+        System.out.println("build price for meal lunch");
+        meal.setPrice(35);
+    }
 }
